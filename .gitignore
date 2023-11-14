@@ -9,6 +9,8 @@ __pycache__/
 #
 *.mp4
 segments/
+videnv/
+venv/
 
 # Distribution / packaging
 .Python
