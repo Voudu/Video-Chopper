@@ -7,13 +7,13 @@ Create a virtual environment and install dependencies using the following comman
 
 ### Installation:
 ```
-python -m videnv venv
-pip install -r requirements.txt
+python -m venv videnv
 videnv\Scripts\Activate.ps1 (depends on OS)
+pip install -r requirements.txt
 ```
 
 ### Usage:
 ```
-py video-chopper.py <video_path> <how_many_clips> <duration (sec)>
+py chopper.py <video_path> <how_many_clips> <duration (sec)>
 ```
 Note: the output will be in the root directory and create a folder called 'segments'
