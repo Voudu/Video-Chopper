@@ -7,9 +7,9 @@ def generate_clips(video_path, how_many_clips, duration, output_path):
         print("File does not exist")
         return
 
-    if not os.path.exists(output_path):
+    if not os.path.exists("./segments"):
         try:
-            os.mkdir(output_path)
+            os.mkdir("./segments")
         except Exception as e:
             print(f"failed to create a new directory for clips: {e}")
             return
